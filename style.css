@@ -71,16 +71,32 @@ section {
   flex-direction: column;
 }
 
-.contact-content a {
+.contact-content{
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  /*justify-content: flex-start;*/
   font-size: 22px;
   text-decoration: none;
   opacity: 0.7;
   margin: 10px;
   color: #ffffff;
 }
-.contact-content img {
-  margin: 10px;
+.right1 {
+  width: 50%;
+  height: 100%;
+  background-image: url("apple teacher.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.left1 {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(74, 68, 92);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 250%;
+  
+ 
 }
